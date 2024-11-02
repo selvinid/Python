@@ -1,10 +1,8 @@
 class OddEven():
 
-    def isOddEven(num):
+    def isOddEven():
+        num = int(input("Enter a number :"))
         if(num%2==0):
-            message = "even" 
-            return message
+            print(f'{num} is Even number')
         else:
-            message ="odd"
-            return message
-        
+            print(f'{num} is Odd number')    

@@ -1,5 +1,8 @@
 class EligiblityForMarriage():   
-    def Eligible(gender,age):
+    def Eligible():
+        gender = input('Your Gender :')
+        age = int(input('Your Age :'))      
+        
         if("Male"==gender):
             if(age>=21 ):
                 eligible= 'eligible'
@@ -10,5 +13,9 @@ class EligiblityForMarriage():
                 eligible=  'eligible'
             else:
                 eligible=  "notEligible"
-        return eligible
+         
+        if ("eligible"==eligible):
+            print("ELIGIBLE")
+        else:
+             print("NOT ELIGIBLE")
          
